@@ -1,0 +1,14 @@
+.deadLink {
+  position: relative;
+  top: 25vh;
+  margin: 0 auto;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.message404 {
+  position: relative;
+  top: 25vh;
+  text-align: center;
+}
