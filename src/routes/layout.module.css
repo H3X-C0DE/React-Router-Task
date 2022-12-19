@@ -1,0 +1,72 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  position: relative;
+
+  min-height: 100vh;
+
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pixelstalk.net%2Fwp-content%2Fuploads%2F2016%2F05%2FFree-Optical-illusion-Wallpaper.jpg&f=1&nofb=1&ipt=618bbe9d6111fe3ee52b578188cac9b5eb816856c761b815b9a02332d7199b21&ipo=images");
+  background-size: cover;
+  background-position: right;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: var(--spacing-small) var(--spacing-medium);
+
+  min-width: 100vw;
+
+  background-color: rgba(8, 8, 8, 0.64);
+}
+
+.navLinks {
+  display: flex;
+}
+
+.navLinks > * {
+  margin: 0px 1rem;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.footer {
+  padding: var(--spacing-medium) var(--spacing-medium);
+  min-width: 100vw;
+  background-color: rgba(0, 0, 0, 0.64);
+}
+.footerText {
+  text-align: center;
+  color: var(--color-white);
+}
+
+.link {
+  color: var(--color-white);
+  text-decoration: none;
+
+  font-weight: 600;
+}
+.link:hover {
+  color: var(--color-secondary-2);
+}
+.h1 {
+  font-size: 2em;
+  color: var(--color-secondary-2);
+  text-decoration: none;
+}
+.imageBg {
+  margin: 0 auto;
+  position: relative;
+  top: 15vh;
+  background-color: rgba(0, 0, 0, 0.686);
+  border-radius: 45%;
+  display: flex;
+  justify-content: center;
+  max-width: 500px;
+}
