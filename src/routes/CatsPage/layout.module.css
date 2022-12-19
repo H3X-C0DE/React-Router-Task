@@ -1,0 +1,9 @@
+img {
+  position: relative;
+  top: 15vh;
+  max-width: 300px;
+  border-radius: 50%;
+}
+.container {
+  display: flex;
+}
